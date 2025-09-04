@@ -2,6 +2,7 @@ import { player } from "../data/players";
 import Player from "./player";
 export default function PlayersList() {
   return (
+    //cards container so that they're all shown properly through the grid
     <div className="cards-container">
       {player.map((player, index) => (
         <Player

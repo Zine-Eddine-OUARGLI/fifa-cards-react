@@ -9,6 +9,7 @@ export default function Player({
   img,
 }) {
   return (
+    //added card style class so that it properly centers
     <div className="card">
       <Card style={{ width: "18rem" }}>
         <Card.Img
