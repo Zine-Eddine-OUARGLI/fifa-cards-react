@@ -15,7 +15,7 @@ export default function Player({
           variant="top"
           src={img}
           className="object-fit-cover"
-          style={{ height: "350px", width: "300px" }}
+          style={{ height: "350px", width: "275px" }}
         />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
